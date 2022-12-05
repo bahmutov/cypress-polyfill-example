@@ -1,0 +1,14 @@
+<body>
+  <h1>I use ES6</h1>
+  <p>This page uses some ES Array methods, like `findLast`.</p>
+  <code>[5, 12, 50, 130, 44]</code>
+  <button id="find">Find the last number &gt; 45</button>
+  <output id="output" />
+  <script>
+    const array1 = [5, 12, 50, 130, 44]
+    document.getElementById('find').addEventListener('click', () => {
+      const found = array1.findLast((element) => element > 45)
+      document.getElementById('output').innerText = String(found)
+    })
+  </script>
+</body>
