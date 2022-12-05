@@ -1,8 +1,10 @@
 <body>
   <h1>I use ES6</h1>
-  <p>This page uses some ES Array methods, like `findLast`.</p>
+  <p>This page uses some ES6 Array methods, like <code>findLast</code>.</p>
   <code>[5, 12, 50, 130, 44]</code>
+  <br />
   <button id="find">Find the last number &gt; 45</button>
+  <br />
   <output id="output" />
   <script>
     const array1 = [5, 12, 50, 130, 44]
@@ -11,4 +13,8 @@
       document.getElementById('output').innerText = String(found)
     })
   </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/core-js-bundle@3.26.1/index.min.js"
+    async
+  ></script>
 </body>
