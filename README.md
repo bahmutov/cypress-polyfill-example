@@ -2,6 +2,8 @@
 
 > Check if the ES6 polyfill is correctly working
 
+Read the blog post 📝 [Test Polyfills](https://glebbahmutov.com/blog/test-polyfills/)
+
 ES6 method [Array.prototype.findLast](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast)
 
 Using [core-js polyfill](https://github.com/zloirock/core-js) from CDN, see [index.html](./index.html)
